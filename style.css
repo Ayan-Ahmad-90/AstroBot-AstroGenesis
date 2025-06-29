@@ -188,9 +188,13 @@ h1 {
 
 /* Responsive (Mobile) */
 @media (max-width: 600px) {
+  body {
+    padding: 0.5rem;
+  }
+
   .chat-container {
-    padding: 20px;
-    width: 95%;
+    padding: 1rem;
+    width: 100%;
   }
 
   .logo {
