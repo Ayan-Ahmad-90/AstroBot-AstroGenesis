@@ -36,6 +36,7 @@ body {
 
 /* Header */
 .header {
+  margin-top: 50px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -66,8 +67,12 @@ h1 {
   background-color: rgba(255, 255, 255, 0.05);
   border-radius: 15px;
   padding: 15px;
-  height:70px;
-  margin-bottom: 3rem;
+  align-items: center;
+  justify-content: center;
+  max-height: 70px;
+  /* width: 50%; */
+  margin-top: 20%;
+  margin-bottom: 30%;
   min-height: 300px;
   overflow-y: auto;
 }
@@ -112,6 +117,7 @@ h1 {
 /* Input Area */
 .input-area {
   display: flex;
+
   gap: 10px;
 }
 
