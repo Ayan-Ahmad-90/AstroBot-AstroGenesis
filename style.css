@@ -21,6 +21,7 @@ body {
 
 /* Chat Container */
 .chat-container {
+  height: 80vh;
   background-color: rgba(0, 0, 30, 0.7);
   padding: 80px;
   border-radius: 20px;
