@@ -228,6 +228,7 @@ h1 {
   .input-area button {
     font-size: 12px;
     margin-top:70px;
+    margin-bottom:20px;
   }
 
   .mode-toggle {
