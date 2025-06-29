@@ -23,8 +23,8 @@ body {
 /* Chat Container */
 .chat-container {
   background-color: rgba(0, 0, 30, 0.7);
-  padding-left: 8rem;
-  padding-right: 8rem;
+  padding: 2rem;
+  /* padding-right: 8rem; */
   border-radius: 20px;
   width: 100%;
   max-width: 500px;
@@ -38,6 +38,7 @@ body {
 
 /* Header */
 .header {
+  /* margin-bottom: 30vh; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -66,8 +67,10 @@ h1 {
 .chat-box {
   background-color: rgba(255, 255, 255, 0.05);
   border-radius: 15px;
+  padding-top: 50rem;
   padding: 15px;
   flex-grow: 1;
+  height: 60vh;
   overflow-y: auto;
 }
 
