@@ -220,12 +220,14 @@ h1 {
   }
 
   .chat-box {
+    margin-top:20%;
     height: 60vh;
   }
 
   .input-area input,
   .input-area button {
     font-size: 12px;
+    margin-top:40%
   }
 
   .mode-toggle {
