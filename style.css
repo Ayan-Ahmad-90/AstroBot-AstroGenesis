@@ -116,6 +116,7 @@ h1 {
 
 /* Input Area */
 .input-area {
+  margin-top:80%;
   display: flex;
 
   gap: 10px;
