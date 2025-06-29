@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "What's up", "Good morning"],
+      "responses": ["Hello!", "Hi there!", "Hey!", "Hi, how can I help you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "Catch you later"],
+      "responses": ["Goodbye!", "See you later!", "Have a great day!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it"],
+      "responses": ["You're welcome!", "No problem!", "Glad to help!"]
+    },
+    {
+      "tag": "name_query",
+      "patterns": ["What's your name?", "Who are you?"],
+      "responses": ["I am a chatbot created to help you!", "I'm your virtual assistant."]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["What are your hours?", "When are you open?", "Working hours?"],
+      "responses": ["We're open 24/7!", "You can chat with me anytime!"]
+    }
+  ]
+}
